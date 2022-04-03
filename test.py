@@ -9,7 +9,7 @@ from stock_strategy import days_overrise, days_overrise_other,days_overrise_othe
     days_overrise2, surplus_line_sun, close_overrise_high_low, overrise_high_close_low_high, surplus_line3_low_open
 
 # sh.600165
-stock_code = 'sz.301023'
+stock_code = 'sh.000001'
 bs.login()
 download_data([stock_code])
 bs.logout()
